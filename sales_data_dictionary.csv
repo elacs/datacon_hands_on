@@ -1,0 +1,11 @@
+Data Field,Data Format, Validation
+SalesID,N(4),Unique values; Integer; >0; Cannot be blank
+SalesDate,X(10),Format: yyyy-mm-dd; Cannot be blank
+OrderID,N(5),Integer; >0; Cannot be blank
+CustomerID,N(3),Integer; >0; Cannot be blank
+SalesPersonID,N(1),Integer; >0; Cannot be blank
+ProductID,N(2),Integer; >0; Cannot be blank
+Quantity,N(4),Integer; >0; Cannot be blank
+Sales,N(10,2),Float; >=0; Cannot be blank
+StoreID,N(1),"Permitted values: 1,2,3,4,5,6,7,8,9; Cannot be blank"
+OrderStatus,A(10),"Permitted values: Complete, Pending, Incomplete; Cannot be blank"
