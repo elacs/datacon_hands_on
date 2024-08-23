@@ -1,7 +1,6 @@
 Data Field,Data Format, Validation
 SalesID,N(4),Unique values; Integer; >0; Cannot be blank
 SalesDate,X(10),Format: yyyy-mm-dd; Cannot be blank
-OrderID,N(5),Integer; >0; Cannot be blank
 CustomerID,N(3),Integer; >0; Cannot be blank
 SalesPersonID,N(1),Integer; >0; Cannot be blank
 ProductID,N(2),Integer; >0; Cannot be blank
